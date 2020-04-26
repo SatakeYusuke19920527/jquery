@@ -1,3 +1,4 @@
-$(selector).click(function(e) {
-	e.preventDefault();
-});
+$('#button').click(function (e) {
+  e.preventDefault()
+  alert('click!!')
+})
